@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quizstyle.css">
+</head>
+
+<body>
+
+    <main>
+        <section class="quiz">
+
+           <div class="heading">
+                <p class="title">notNotion</p>
+                <p class="subtitle">Daily quiz to test your JS knowledge</p>
+            </div>
+            <div class="result hide">
+                <p></p>
+                <p class="reload">
+                    <button  onclick=document.location.reload(true) >Try Again?</button>
+                </p>
+            </div>
+
+            <form class="quiz-form">
+
+
+                <div class="question">
+                    <p>1.The ” var” and “function” are known as </p>
+                    <div class="option">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label for="">a. Data types</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="B" checked>
+                        <label for="">b. Keywords</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="C" checked>
+                        <label for="">c. Prototypes</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="D" checked>
+                        <label for="">d. Declaration statements</label>
+                    </div>
+
+                </div>
+
+                <div class="question">
+                    <p>2.Which of these is the correct way in which we can call the JavaScript code?.</p>
+                    <div class="option">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label for="">a. Triggering Event</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="B" checked>
+                        <label for="">b. Preprocessor</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="C" checked>
+                        <label for="">c. Function/Method</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="D" checked>
+                        <label for="">d. RMI</label>
+                    </div>
+
+                </div>
+
+                <div class="question">
+                    <p> 3. Which of these functions of the Number Object would format a number with different numbers of digits to the decimal’s right?</p>
+                    <div class="option">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label for="">a. toFixed()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="B" checked>
+                        <label for="">b. toExponential()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="C" checked>
+                        <label for="">c. toLocaleString()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="D" checked>
+                        <label for="">d. toPrecision()</label>
+                    </div>
+
+                </div>
+
+                <div class="question">
+                    <p>4. Out of the following functions of the string object, which one would return the character in any string via the specified number of characters starting at a specified position?</p>
+                    <div class="option">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label for="">a. search()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="B" checked>
+                        <label for="">b. substr()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="C" checked>
+                        <label for="">c. split()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="D" checked>
+                        <label for="">d. slice()</label>
+                    </div>
+
+                </div>
+
+                <div class="question">
+                    <p> 5. Look at the snippets given below and check the one in which the variable “a” isn’t equal to the “NULL”.</p>
+                    <div class="option">
+                        <input type="radio" name="q5" value="A" checked>
+                        <label for="">a. if (a!)</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="B" checked>
+                        <label for="">b. if(a!=null)</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="C" checked>
+                        <label for="">c. if(a!==null)</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="D" checked>
+                        <label for="">d. if(a!null)</label>
+                    </div>
+
+                </div>
+
+                <div class="question">
+                    <p>6. In JavaScript, what do we use for calling the expression for function definition?</p>
+                    <div class="option">
+                        <input type="radio" name="q6" value="A" checked>
+                        <label for="">a. Function literal</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q6" value="B" checked>
+                        <label for="">b. Function prototype</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q6" value="C" checked>
+                        <label for="">c. Function declaration</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q6" value="D" checked>
+                        <label for="">d. Function calling</label>
+                    </div>
+
+                </div>
+                
+                <div class="question">
+                    <p> 7. Which of these is used in JavaScript for calling a method or a function?</p>
+                    <div class="option">
+                        <input type="radio" name="q7" value="A" checked>
+                        <label for="">a. Functional Expression</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q7" value="B" checked>
+                        <label for="">b. Property Access Expression</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q7" value="C" checked>
+                        <label for="">c. Primary Expression</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q7" value="D" checked>
+                        <label for="">d. Invocation Expression</label>
+                    </div>
+
+                </div>
+
+                <div class="question">
+                    <p>8. Which of these operators are used for checking if a specific property exists?</p>
+                    <div class="option">
+                        <input type="radio" name="q8" value="A" checked>
+                        <label for="">a. in</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q8" value="B" checked>
+                        <label for="">b. within</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q8" value="C" checked>
+                        <label for="">c. exist</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q8" value="D" checked>
+                        <label for="">d. exists</label>
+                    </div>
+
+                </div>
+
+                <div class="question">
+                    <p>  “The expression that can appear legally on an assignment expression’s left side” is a common explanation for variables, elements of arrays, and properties of objects. These are known as __________:</p>
+                    <div class="option">
+                        <input type="radio" name="q9" value="A" checked>
+                        <label for="">a. Prototypes</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q9" value="B" checked>
+                        <label for="">b. Properties</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q9" value="C" checked>
+                        <label for="">c. Lvalue</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q9" value="D" checked>
+                        <label for="">d. Definition</label>
+                    </div>
+
+                </div>
+                
+                <div class="question">
+                    <p> 10. Which of these is a correct output for the JavaScript code given below?
+                    <P>string X= “Hey”;</P>
+                    <P>string Y=”There”;</P>
+                    <P>alert(X+Y);</P>
+
+                    </p>
+                    <div class="option">
+                        <input type="radio" name="q10" value="A" checked>
+                        <label for="">a. Hey There</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q10" value="B" checked>
+                        <label for="">b. Hey_There</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q10" value="C" checked>
+                        <label for="">c. HeyThere</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q10" value="D" checked>
+                        <label for="">d. undefined</label>
+                    </div>
+
+                </div>
+
+                <div class="question">
+                    <p> 11. Which of these is known as the Equality operator used for checking whether both the values are equal?</p>
+                    <div class="option">
+                        <input type="radio" name="q11" value="A" checked>
+                        <label for="">a. =</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q11" value="B" checked>
+                        <label for="">b. ==</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q11" value="C" checked>
+                        <label for="">c. ===</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q11" value="D" checked>
+                        <label for="">d. &&</label>
+                    </div>
+
+                </div>
+
+                <div class="question">
+                    <p> 12. In case a value of an operator is NULL, then the unary operator would return the ____________ typeof.</p>
+                    <div class="option">
+                        <input type="radio" name="q12" value="A" checked>
+                        <label for="">a. object</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q12" value="B" checked>
+                        <label for="">b. boolean</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q12" value="C" checked>
+                        <label for="">c. string</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q12" value="D" checked>
+                        <label for="">d. undefined</label>
+                    </div>
+
+                </div>
+
+                <div class="submit">
+                    <input type="submit" value="Submit">
+
+                </div>
+
+            </form>
+
+        </section>
+    </main>
+
+    <script src="/quiz/quiz.js"></script>
+</body>
+
+</html>
